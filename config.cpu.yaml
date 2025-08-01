@@ -62,3 +62,9 @@ llm:
       config:
         max_length: 200
     template: ""
+
+  ollama:
+    # all options: https://python.langchain.com/api_reference/community/llms/langchain_community.llms.ollama.Ollama.html
+    # change the base_url to point to a remote Ollama server if needed
+    base_url: http://localhost:11434
+    model: llama2

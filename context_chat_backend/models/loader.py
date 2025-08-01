@@ -8,7 +8,7 @@ from importlib import import_module
 from langchain.llms.base import LLM
 from langchain.schema.embeddings import Embeddings
 
-_llm_models = ["nc_texttotext", "llama", "hugging_face", "ctransformer"]
+_llm_models = ["nc_texttotext", "llama", "hugging_face", "ctransformer", "ollama"]
 
 models = {
 	"llm": _llm_models,

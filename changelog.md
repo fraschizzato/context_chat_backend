@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - pre download the tokenizer instead of mid operation (#191) @kyteinsky
 - add endpoint for downloading logs (#192) @lukasdotcom
 - use supervisord to manage the processes (#194) @kyteinsky
+- allow using Ollama models hosted on a remote server
 
 
 ## 4.3.0 - 2025-05-08
